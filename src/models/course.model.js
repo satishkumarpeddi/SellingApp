@@ -15,5 +15,5 @@ const CourseModel = mongoose.Model('courses',Courses);
 
 
 module.exports = {
-    Courses:Courses
+    CourseMode:CourseModel
 }
