@@ -1,5 +1,7 @@
 const express = require('express');
 const path = require('path');
+const {userRouter} = require('./routes/users.route.js')
+const {courseRouter} = require('./routes/course.route.js')
 require('dotenv').config({
     path:path.resolve(__dirname,'../../.env')
 })

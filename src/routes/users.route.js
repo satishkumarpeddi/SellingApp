@@ -25,3 +25,7 @@ userRouter.get('/courses',(req,res)=>{
         message:"courses endpoint"
     })
 })
+
+module.exports = {
+    userRouter:userRouter
+}
